@@ -12,6 +12,9 @@ p {
 }
 
 #search-form {
+  position: fixed;
+  top: 0;
+  left: 0;
   color: white;
   width: 100%;
   display: flex;
@@ -44,6 +47,7 @@ button:hover {
   background-color: #02c9b6;
 }
 .gallery {
+  margin-top: 80px;
   padding: 10px 15px;
   display: flex;
   flex-wrap: wrap;

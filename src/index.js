@@ -20,7 +20,7 @@ const loadPictures = async q => {
     totalHitsVar = resp.totalHits;
     console.log(picturesArray);
     displayPictures(picturesArray);
-    if (page === 1)
+    if (page === 1 && picturesArray.length > 0)
       Notiflix.Notify.success(`Hooray! We found ${totalHitsVar} images.`);
     if (totalHitsVar > 40 && picturesArray.length >= 40)
       loadBtn.style.visibility = 'visible';
