@@ -56,22 +56,22 @@ button:hover {
 }
 .photo-card {
   flex-basis: calc(100% / 4 - 30px);
-  border: 1px solid #b4becf;
 }
 .photo-card a {
   width: 100%;
-  height: 150px;
 }
 .photo-card img {
   width: 100%;
-  height: 150px;
 }
 .info {
   display: flex;
+  justify-content: space-around;
 }
 
 .info-pic {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .btn-div {
