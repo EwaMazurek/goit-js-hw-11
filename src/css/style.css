@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+  font-family: 'Lobster Two';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+#search-form {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #054042;
+  padding: 10px 0 10px;
+}
+.title {
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+input {
+  height: 20px;
+  width: 20%;
+  margin-right: 5px;
+}
+button {
+  width: 7%;
+  height: 25px;
+  border: none;
+  border-radius: 1px;
+}
+
+button:hover {
+  color: white;
+  background-color: #02c9b6;
+}
+.gallery {
+  padding: 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.photo-card {
+  flex-basis: calc(100% / 4 - 30px);
+  border: 1px solid #b4becf;
+}
+.photo-card a {
+  width: 100%;
+  height: 150px;
+}
+.photo-card img {
+  width: 100%;
+  height: 150px;
+}
+.info {
+  display: flex;
+}
+
+.info-pic {
+  text-align: center;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+.load-more {
+  background-color: #054042;
+  color: white;
+  width: 90px;
+  margin: 10px auto;
+  visibility: hidden;
+}

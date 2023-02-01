@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HW-11</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lobster+Two:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <form class="search-form" id="search-form">
-      <p>(almost) all images you're looking for in one place</p>
+      <p class="title">Some random images noone really cares about</p>
       <input
         type="text"
         name="searchQuery"
@@ -19,6 +24,10 @@
       <button type="submit">Search</button>
     </form>
     <div class="gallery"></div>
-    <script src="./index.js" type="module"></script>
+    <div class="btn-div">
+      <button type="button" class="load-more">Load more</button>
+    </div>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
